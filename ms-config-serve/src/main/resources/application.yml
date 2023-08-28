@@ -1,0 +1,12 @@
+
+
+serve:
+  port:7070
+  spring:
+    aplication:
+      name: config-serve
+    cloud:
+      config:
+        serve:
+          git:
+
